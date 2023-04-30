@@ -1,0 +1,90 @@
+@import "./colors_and_vars.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: $white;
+  background-color: $main;
+  font-family: "Rubik", sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%; 
+  height: auto;
+}
+
+input,
+button {
+  color: $white;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: calc(47 / 40);
+  color: $white; 
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.container {
+  width: 1420px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.violet {
+  color: $violet;
+}
+
+.orange {
+  color: $orange;
+}
