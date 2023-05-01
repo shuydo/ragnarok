@@ -897,6 +897,9 @@ h2 {
   text-decoration: underline;
 }
 
+.swiper {
+  overflow: unset;
+}
 .swiper .swiper-button-prev::after,
 .swiper .swiper-button-next::after {
   content: "";
@@ -927,6 +930,12 @@ h2 {
 }
 .swiper-button-next svg {
   transform: scale(-1, 1);
+}
+.swiper-pagination {
+  bottom: -25px !important;
+}
+.swiper-pagination-bullet {
+  background-color: #a9c7c7;
 }
 
 .modal {

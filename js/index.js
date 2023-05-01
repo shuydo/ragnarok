@@ -1,4 +1,4 @@
-import Swiper from "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js";
+// import Swiper from "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js";
 import { langs } from "./languages.js";
 
 if (!localStorage.getItem("lang")) localStorage.setItem("lang", "ua");
@@ -113,6 +113,11 @@ const initSlider = () => {
       prevEl: ".swiper-button-prev",
       nextEl: ".swiper-button-next",
     },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
   });
 };
 

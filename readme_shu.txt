@@ -2,6 +2,8 @@
 
 https://youtu.be/S7Gi3UnKdmA
 
+gh-page -  shuydo.github.io/ragnarok/
+
 https://github.com/tomkovich/ragnarok
 https://www.figma.com/file/WPk5N8ONd0DGuKWBUjkS6i/Untitled?node-id=0-1&t=gLSIVU6Tf3E0Zxtv-0
 
@@ -127,6 +129,7 @@ tCodes:
 - fixed work 4/4 buttons "buy now"
 - realise smooth scroll without fn
 - remove scroll under overlay
+- add swiping by mouse, keybs; add pagin.tabs, change them unactive color, remove overflov:hidden, move pag. out swiper box 
 
 ?full translate
 ?exp Swiper pag & scroll

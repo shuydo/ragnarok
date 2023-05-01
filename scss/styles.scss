@@ -901,7 +901,8 @@
 }
 // ------------swiper
 .swiper {
-  //off native arrows
+  overflow: unset;
+  //off native arrows img
   .swiper-button-prev::after,
   .swiper-button-next::after {
     content: "";
@@ -939,7 +940,16 @@
       }
     }
   }
+
+  &-pagination {
+    bottom: -25px !important;
+
+    &-bullet {
+      background-color: $sea;
+    }
+  }
 }
+
 // ----------------- modal
 .modal {
   position: fixed;
